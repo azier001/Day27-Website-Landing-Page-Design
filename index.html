@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day27-Website Landing Page Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 724px)"
+      href="responsive.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header id="header" class="flex space-around my-2 margin-auto">
+      <img src="./images/azier01.png" alt="" class="logo pointer" />
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkBtn">
+        <i class="fa fa-bars"></i>
+      </label>
+      <ul class="flex items-center font-ubuntu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Cares</a></li>
+        <li><a href="#">Academy</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </header>
+
+    <main id="main" class="container margin-auto">
+      <!-- Top Home Section -->
+      <section class="flex justify-between items-center fd-col-rev">
+        <div class="top-left width-50 width-100">
+          <h1 class="font-3 h-primary main-col">Azier Media</h1>
+          <p class="para-font text-left t-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+            molestiae itaque dolores voluptatum repellat asperiores ut eaque
+            odio sunt doloribus, ab aliquam unde distinctio reprehenderit
+            veritatis sapiente minus tenetur odit et iure sed labore.
+            Consectetur optio illum qui cupiditate nihil perferendis iste
+            reiciendis voluptas est, eum provident rem, eaque quis dolores
+            officiis corporis hic alias officia sed nulla adipisci mollitia
+            praesentium. Quidem iure itaque, repellendus voluptates, modi eaque
+            illo quas nisi excepturi quasi nulla dolor quis dolorum sint
+            consequuntur ducimus autem at magni. Adipisci, porro, voluptatum,
+            expedita sapiente voluptatem quas aperiam ad maiores consequuntur
+            tempore sunt possimus sequi quam exercitationem unde laboriosam qui
+            dolorum quia vel inventore repellendus voluptate voluptatibus? Odit
+            omnis saepe sit corrupti aspernatur distinctio delectus in dicta!
+          </p>
+          <button class="btn pointer">Explore</button>
+        </div>
+        <div class="top-right image-50">
+          <img src="./images/people1.png" alt="" class="pointer" />
+        </div>
+      </section>
+
+      <!-- Academy Section -->
+      <section class="common flex" id="academy">
+        <h1 class="font-3 h-primary center my-2 main-col">Azier Academy</h1>
+        <p class="width-80 text-center para-font t-center">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
+          nostrum illo necessitatibus ducimus, dolor, nihil sed eveniet et iure
+          incidunt laboriosam cupiditate distinctio quidem sequi eligendi nisi
+          vero iusto ad, quod sapiente quae! Quos excepturi voluptas beatae,
+          iusto illum officiis. Ullam aliquid nemo libero dolore hic cum?
+          Tempora, sapiente quaerat!
+        </p>
+      </section>
+
+      <!-- Azier Media in News Section -->
+      <section
+        class="flex justify-between items-center my-5 fd-col-rev width-100"
+      >
+        <div class="top-right width-100">
+          <img src="./images/toa.png" class="hover width-80" alt="" />
+        </div>
+        <div class="top-left width-50 width-100">
+          <h1 class="font-3 h-primary main-col">Azier Media in News!</h1>
+          <p class="para-font t-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            sed ab tenetur laborum dignissimos, veritatis ratione molestiae
+            dolorem illum molestias corporis soluta, ut voluptas placeat tempore
+            alias ducimus quisquam qui.
+          </p>
+          <button class="btn margin-top pointer">Book</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Azier Media Section -->
+    <section class="common bg-yellow flex">
+      <h1 class="font-3 h-primary center my-2 main-colmain-col main-col">
+        Azier <br />
+        Media
+      </h1>
+      <p class="width-80 text-center para-font t-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam accusamus
+        delectus ullam. Ad quibusdam tenetur fuga ducimus praesentium minima
+        repellendus! <br />
+        Lorem ipsum dolor sit amet.
+      </p>
+    </section>
+
+    <!-- Location Section -->
+    <section
+      class="m-auto flex justify-between items-center m-top fd-col width-80"
+      id="location"
+    >
+      <div class="top-right">
+        <img src="./images/map.png" alt="" class="location-img res" />
+      </div>
+      <div class="top-left width-50 width-100">
+        <h1 class="font-3 h-primary main-col my-2">Azier Media Locations!</h1>
+        <p class="para-font t-center">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Necessitatibus tenetur dignissimos, asperiores quisquam perferendis
+          maxime distinctio porro eligendi a omnis sint autem eum similique vero
+          quis, eos, ad optio laboriosam.
+        </p>
+      </div>
+    </section>
+    <button class="btn text-center pointer">Book Now</button>
+
+    <!--Azier Media that cares Section -->
+    <section class="common flex" id="cares">
+      <h1 class="font-3 h-primary center my-2 main-col">
+        Azier Media That Cares
+      </h1>
+      <p class="width-80 text-center para-font t-center">
+        Azier Media cares for you; while you care for others.
+        <br />
+        Need support regarding health care, business, overcoming social issues,
+        fight against climate change, <br />
+        civil rights, fight against gender inequality, and more?
+      </p>
+    </section>
+
+    <!-- Contact section Azier Media Landing Page -->
+    <section
+      class="margin-auto my-5 width-80 flex space-around contact"
+      id="contact"
+    >
+      <div class="contact-items text-left">
+        <h3 class="my-2 para-font">Social Media</h3>
+        <div class="left-align">
+          <p class="para-font">Twitter</p>
+          <p class="para-font">Facebook</p>
+          <p class="para-font">LinkedIn</p>
+          <p class="para-font">Instagram</p>
+        </div>
+      </div>
+      <div class="contact-items text-left">
+        <h3 class="my-2 para-font">Locations</h3>
+        <div class="left-align">
+          <p class="para-font">City A</p>
+          <p class="para-font">City B</p>
+          <p class="para-font">City C</p>
+          <p class="para-font">City <dfn></dfn></p>
+        </div>
+      </div>
+      <div class="contact-items text-left">
+        <h3 class="my-2 para-font">Direct Contact</h3>
+        <div class="left-align">
+          <p class="para-font">Ph: 123456789</p>
+          <p class="para-font">Email: Info@cobasaja.com</p>
+        </div>
+        <p class="para-font">Email: cobasaja@gmail.com</p>
+      </div>
+    </section>
+
+    <!-- Footer Area -->
+    <footer id="footer">
+      <p class="text-center my-2 para-font">© Copyright 2023 Azier Media</p>
+    </footer>
+  </body>
+</html>
